@@ -7,3 +7,26 @@ html {
     padding: 0;
     box-sizing: inherit;
 }
+
+.flex-container {
+    color: whitesmoke;
+    background-color: rgb(127, 138, 255);
+    display: flex;
+    padding: 20px ;
+    justify-content: center;
+}
+
+.menu {
+    padding: 5px 20px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+}
+
+.signup{
+    margin-right: 20px;
+}
