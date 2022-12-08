@@ -8,6 +8,8 @@ html {
     box-sizing: inherit;
 }
 
+/* Styling the navbar */
+
 .flex-container {
     color: whitesmoke;
     background-color: rgb(127, 138, 255);
@@ -29,4 +31,21 @@ html {
 
 .signup{
     margin-right: 20px;
+}
+
+/* Styling the underneath header */
+
+.header-container {
+    color: #5995DA;
+    background-color: #D6E9FE;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
