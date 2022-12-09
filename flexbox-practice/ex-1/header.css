@@ -1,0 +1,29 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+span {
+    padding: 5px;
+    border-radius: 25%;
+    background-color: #ffee93;
+}
+
+.flex-header {
+    padding: 10px 8px;
+    display: flex;
+    background-color: #fcf5c7;
+    justify-content: space-between;
+}
+
+.container {
+    gap: 30px;
+    display: flex;
+}
+
+.center {
+    color: #fe9962;
+}
+
+.left, .right {
+    color: coral;
+}
